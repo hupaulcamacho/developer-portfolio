@@ -11,7 +11,7 @@ const descriptions = {
         text: 'Who I am and where I come from.'
     },
     'RESUME': {
-        text: 'A redirect to my current updated resume.'
+        text: 'A link to my current up to date resume'
     },
     'SKILLS': {
         text: 'Programming languages and skills I have learned and mastered.'
