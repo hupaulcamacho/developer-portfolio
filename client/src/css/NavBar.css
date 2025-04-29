@@ -1,0 +1,77 @@
+.main-nav {
+    text-align: left;
+    margin-top: 5%;
+    /* padding-top: 5%;
+    padding-bottom: 5%; */
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.712) , rgba(255, 255, 255, 0));
+    font-weight: 500;
+    text-shadow: 2px 2px #000000;
+    animation-name: fadeInLeft;
+    animation-duration: 1s;
+}
+
+@media (max-width: 450px) {
+    .main-nav {
+        margin-top: 25px;
+    }
+    .selection {
+        padding-top: 15px!important;
+        padding-bottom: 15px!important;
+        font-size: 5vw!important;
+    }
+}
+
+.selection {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 20%;
+    font-size: 2vw;
+    background-color: rgba(0, 0, 0, 0);
+    font-family: 'Roboto';
+}
+  
+.selection:hover {
+    /* background: linear-gradient(to right, red , rgba(255, 255, 255, 0)); */
+    /* background-color: red; */
+    animation: pulse-red 1s infinite;
+}
+
+@keyframes pulse-red {
+	0% {
+    background-color: rgba(255, 0, 0, 0);
+  }
+
+	50% {
+    background-color: red;
+  }
+
+  100% {
+    background-color: rgba(255, 0, 0, 0);
+	}
+}
+
+@keyframes pulse-red2 {
+	0% {
+        background: linear-gradient(to right, rgba(255, 0, 0, 0), rgba(255, 255, 255, 0));
+    }
+
+	50% {
+        background: linear-gradient(to right, red , rgba(255, 255, 255, 0));
+    }
+
+    100% {
+        background: linear-gradient(to right, rgba(255, 0, 0, 0), rgba(255, 255, 255, 0));
+    }
+}
+
+@keyframes fadeInLeft {
+    0% {
+      opacity: 0;
+      transform: translate3d(-100%, 0, 0);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: none;
+    }
+}
