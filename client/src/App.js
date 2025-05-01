@@ -13,7 +13,10 @@ function App() {
     const imgs = [
       './assets/ryu_char_select.png',
       './assets/ken_char_select.png',
-      './assets/bison_char_select.png'
+      './assets/bison_char_select.png',
+      './assets/viper_char_select.png',
+      './assets/guy_char_select.png',
+      './assets/rose_char_select.png',
     ];
 
     cacheImages(imgs);
