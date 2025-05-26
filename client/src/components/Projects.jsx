@@ -33,7 +33,7 @@ const projects = {
         imgUrl: fgcsocial,
         videoURL: fgcsocialV,
         repo: 'https://github.com/hupaulcamacho/fgc-social',
-        live: 'https://fgc-social-3mo839kka-hupaulcamachos-projects.vercel.app/'
+        live: 'https://fgc-social.vercel.app/'
     },
     'Hand Me Down': {
         title: 'Hand Me Down',
