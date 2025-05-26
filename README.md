@@ -4,7 +4,7 @@
 
 *Taking inspiration from the game interface of Street Fighter IV, this site showcases some of my development work and technical skills while staying faithful to the iconic layout.*
 
-The site is hosted on netlify at [hupaulcamacho.dev](https://hupaulcamacho.dev/)
+The site is hosted on vercel at [hupaulcamacho.dev](https://developer-portfolio-umber-gamma.vercel.app/)
 
 ## Running The Portfolio App Locally
 
